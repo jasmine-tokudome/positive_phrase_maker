@@ -1,6 +1,6 @@
-const interests = []
-const specialities = []
-const greetings = []
+const greeting = ["こうして想っているよ、大切な人","ふっと息をついたあなたへ","心を包みこみたい素敵なあなた","そっと寄り添いたい優しい人","あなたに静かに届けたい言葉があるよ"]
+const state = []
+const hope = []
 const button = document.querySelector("#button");
 button.addEventListener("click", function(){
     const name = document.querySelector("#name").value;
