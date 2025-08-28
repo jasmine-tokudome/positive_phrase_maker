@@ -12,10 +12,9 @@ button.addEventListener("click", function(){
     const greeting = greetings[index1];
     const state = states[index2];
     const hope = hopeMessages[index3];
-    const message = `いま${greeting}、
-    あなたは${state}けれど、
-    ${hope}から大丈夫だよ。
-    `
+    const message = `${greeting}、
+    ${name}は${state}けれど、
+    ${hope}から大丈夫だよ。`
     const output = document.querySelector("#output");
     output.textContent = message;
 });
