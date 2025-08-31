@@ -6,6 +6,8 @@ body {
 #face {
     /* ここに画像の装飾を書く */
     width: 500px;
+    margin: 20px 0;     /* 上下に20pxの余白 */
+    display: block;     /* 余白問題の解消 */
 }
 
 /* ここから下は吹き出しの装飾 */
